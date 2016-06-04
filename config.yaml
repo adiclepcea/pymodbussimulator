@@ -1,0 +1,122 @@
+---
+connection:
+  -
+    port: /dev/ttyUSB0
+    speed: 115200
+slaves:
+  -
+    address: 1
+    description: "test slave 1"
+    registries:
+      -
+        location: 10
+        max: 1024
+        min: 0
+        type: holding
+        value: random_generated
+      -
+        location: 11
+        max: 255
+        min: 0
+        type: holding
+        value: random_generated
+  -
+    address: 2
+    description: "test slave 2"
+    registries:
+      -
+        location: 0
+        max: 1
+        min: 1
+        type: coil
+        value: fixed
+      -
+        location: 1
+        max: 1
+        min: 1
+        type: coil
+        value: fixed
+      -
+        location: 2
+        max: 1
+        min: 1
+        type: coil
+        value: fixed
+      -
+        location: 3
+        max: 1
+        min: 1
+        type: coil
+        value: fixed
+      -
+        location: 4
+        max: 0
+        min: 0
+        type: coil
+        value: fixed
+      -
+        location: 5
+        max: 0
+        min: 0
+        type: coil
+        value: fixed
+      -
+        location: 6
+        max: 1
+        min: 1
+        type: coil
+        value: fixed
+      -
+        location: 7
+        max: 1
+        min: 1
+        type: coil
+        value: fixed
+      -
+        location: 8
+        max: 1
+        min: 1
+        type: coil
+        value: fixed
+      -
+        location: 9
+        max: 1
+        min: 1
+        type: coil
+        value: fixed
+      -
+        location: 10
+        max: 0
+        min: 0
+        type: coil
+        value: fixed
+      -
+        location: 11
+        max: 0
+        min: 0
+        type: coil
+        value: fixed
+      -
+        location: 12
+        max: 0
+        min: 0
+        type: coil
+        value: fixed
+      -
+        location: 13
+        max: 1
+        min: 1
+        type: coil
+        value: fixed
+      -
+        location: 14
+        max: 0
+        min: 0
+        type: coil
+        value: fixed
+      -
+        location: 15
+        max: 1
+        min: 1
+        type: coil
+        value: fixed
